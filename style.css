@@ -1,0 +1,21 @@
+nav {
+  box-shadow: 0px 1px 6px 2px #e23939;
+}
+.project-container {
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.overlay {
+  width: 100%;
+  background-color: #00000070;
+}
+.overlay:hover {
+  background-color: #00000052;
+}
+.active {
+  color: black !important;
+}
+li:has(> a.active) {
+  background-color: white !important;
+}
