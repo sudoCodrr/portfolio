@@ -1,6 +1,10 @@
-nav {
-  box-shadow: 0px 1px 6px 2px #e23939;
+.custom-box-shadow-botttom {
+  box-shadow: 0px 6px 4px -4px #ffffff;
 }
+.custom-box-shadow-top {
+  box-shadow: 0px -6px 4px -4px #ffffff;
+}
+
 .project-container {
   background-position: top;
   background-size: cover;

@@ -13,15 +13,17 @@
 
 <body class="bg-black text-white">
     <!-- Start of Nav bar -->
-    <nav class="navbar navbar-expand-lg bg-black px-4 py-0" aria-label="Thirteenth navbar example">
+    <nav class="container navbar navbar-expand-lg bg-black px-4 py-0 custom-box-shadow-botttom"
+        aria-label="Thirteenth navbar example">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11"
-                aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler bg-white rounded-3 p-2 my-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
                 <a class="navbar-brand col-lg-3 pt-2 fw-semibold text-white" href="./index.html">
-                    <img src="./asset/images/sudoCodrr.gif" alt="logo" height="70">
+                    <img src="./asset/images/sudoCodrr.gif" alt="logo" height="70" class="mb-2">
                 </a>
                 <ul class="navbar-nav col justify-content-lg-end fw-bold" id="menuItems">
                     <li class="nav-item bg-dark rounded px-2 me-3">
@@ -100,7 +102,7 @@
 
     <!-- Start of Section -->
     <section class="container px-4 py-5" id="custom-cards">
-        <h2 class="pb-2 border-bottom fs-2">Projects</h2>
+        <h2 class="mb-3 custom-box-shadow-botttom fs-2 d-inline-block">Projects</h2>
         <h3 class="fs-4">Bringing Ideas to Life – My Web Development Portfolio</h3>
         <p>Explore a collection of projects where creativity meets code! From responsive web designs to
             interactive layouts, each project showcases my expertise in HTML, CSS, JavaScript, and Bootstrap.
@@ -114,20 +116,20 @@
                     d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3" />
             </svg>
         </a>
+
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
             <div class="col">
-                <a href="https://sudocodrr.github.io/countryFlags/" target="_blank" class="text-decoration-none">
+                <a href="https://sudocodrr.github.io/survey-form-migratory-birds/" target="_blank"
+                    class="text-decoration-none">
                     <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg project-container text-white"
-                        style="background-image: url(./asset/images/project01_country_flag_CSS_HTML.png);">
-
+                        style="background-image: url(./asset/images/project03_survey_form.png);">
                         <div class=" d-flex flex-column h-100 p-5 pb-3 text-shadow-1 overlay">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Country Flags - <span class="fs-3">powered
-                                    by CSS only</span></h3>
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Survey From - <span class="fs-3">powered
+                                    by HTML Forms</span></h3>
                         </div>
                     </div>
                 </a>
             </div>
-
             <div class="col">
                 <a href="https://sudocodrr.github.io/replica-mondrian-grid-composition/" target="__blank"
                     class="text-decoration-none">
@@ -141,15 +143,14 @@
                     </div>
                 </a>
             </div>
-
             <div class="col">
-                <a href="https://sudocodrr.github.io/survey-form-migratory-birds/" target="_blank"
-                    class="text-decoration-none">
+                <a href="https://sudocodrr.github.io/countryFlags/" target="_blank" class="text-decoration-none">
                     <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg project-container text-white"
-                        style="background-image: url(./asset/images/project03_survey_form.png);">
+                        style="background-image: url(./asset/images/project01_country_flag_CSS_HTML.png);">
+
                         <div class=" d-flex flex-column h-100 p-5 pb-3 text-shadow-1 overlay">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Survey From - <span class="fs-3">powered
-                                    by HTML Forms</span></h3>
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Country Flags - <span class="fs-3">powered
+                                    by CSS only</span></h3>
                         </div>
                     </div>
                 </a>
@@ -159,15 +160,15 @@
     <!-- End of Section -->
 
     <!-- Start of Footer -->
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 px-5 my-4 border-top">
-        <p class="col-md-4 mb-0 fw-bold ">© 2025 <span class="text-danger">sudo</span><span>Codrr</span></p>
+    <footer
+        class="container d-flex flex-wrap justify-content-between align-items-center py-3 px-4 custom-box-shadow-top">
+        <p class="mb-0 fw-bold">© 2025 <span class="text-danger">sudo</span><span>Codrr</span></p>
 
         <a href="./index.html"
             class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <img src="./asset/images/sudoCodrr.gif" width="100" alt="logo">
         </a>
 
-        <ul class="nav col-md-4 justify-content-end">
+        <ul class="nav justify-content-end">
             <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-white">Home</a></li>
             <li class="nav-item"><a href="./public/about.html" class="nav-link px-2 text-white">About</a></li>
             <li class="nav-item"><a href="./public/projects.html" class="nav-link px-2 text-white">Projects</a></li>
